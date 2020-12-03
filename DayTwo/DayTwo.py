@@ -1,5 +1,5 @@
 from operator import xor
-f = open("DayTwoData.txt", "r")
+f = open(".\DayTwo\DayTwoData.txt", "r")
 content = f.read()
 content_list = content.split("\n")
 cleanedInputs = []

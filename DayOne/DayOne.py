@@ -1,4 +1,4 @@
-f = open("DayOneData.txt", "r")
+f = open(".\DayOne\DayOneData.txt", "r")
 content = f.read()
 content_list = content.split("\n")
 content_list = [int(i) for i in content_list]
